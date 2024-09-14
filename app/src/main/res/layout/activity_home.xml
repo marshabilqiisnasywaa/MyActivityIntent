@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- TextView untuk menampilkan judul halaman "Homepage" -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Homepage"
+        android:padding="20dp"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+    <!-- Memposisikan judul di tengah secara horizontal -->
+
+    <!-- TextView untuk menampilkan teks "Welcome username" -->
+    <TextView
+        android:id="@+id/welcomeUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome username"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="40dp"/>
+    <!-- Margin top untuk memberi jarak dari elemen sebelumnya -->
+
+    <!-- TextView untuk menampilkan teks bahwa email pengguna telah diaktifkan -->
+    <TextView
+        android:id="@+id/emailActivated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your email has been activated"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"/>
+    <!-- Margin top untuk memberi jarak dari elemen sebelumnya -->
+
+    <!-- TextView untuk menampilkan teks bahwa nomor telepon pengguna telah terdaftar -->
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your phone has been registered"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"/>
+    <!-- Margin top untuk memberi jarak dari elemen sebelumnya -->
+
+</LinearLayout>
